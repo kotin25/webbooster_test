@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Webbooster by Kotin</title>
+</head>
+<body>
+    <div class="products">
+    <div class="product-item">
+        <img src="https://wallytally.ru/upload/iblock/de1/de1fa37da355f7697215a9ee38accaa6.jpg">
+        <div class="product-list">
+          <p title="product">Парикмахерское кресло "Норм" гидравлическое</p>
+            <h3 class="price">9 900 ₽</h3>
+            <button class="button">Купить</button>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="https://wallytally.ru/upload/iblock/de1/de1fa37da355f7697215a9ee38accaa6.jpg">
+        <div class="product-list">
+          <p>Парикмахерское кресло "Норм" гидравлическое</p>
+            <h3 class="price"> 9 900 ₽</h3>
+            <button class="button">Купить</button>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="https://wallytally.ru/upload/iblock/de1/de1fa37da355f7697215a9ee38accaa6.jpg">
+        <div class="product-list">
+          <p>Парикмахерское кресло "Норм" гидравлическое</p>
+            <h3 class="price">9 900 ₽</h3>
+            <button class="button">Купить</button>
+        </div>
+      </div>
+      <div class="product-item">
+        <img src="https://wallytally.ru/upload/iblock/de1/de1fa37da355f7697215a9ee38accaa6.jpg">
+        <div class="product-list">
+          <p>Парикмахерское кресло "Норм" гидравлическое</p>
+            <h3 class="price"> 9 900 ₽</h3>
+            <button class="button" id='button'>Купить</button>
+        </div>
+      </div>
+    </div>
+        <div class="form">
+            <form  id="myForm" class="myForm" method="post" action="contact.php">
+              <span class="close">×</span>
+                <h1>Отправить заявку</h1>
+                <div class="form__item">
+                    <input id="formName" type="text" name="name" class="form__input " placeholder="Имя" required>
+                </div>
+                <div class="form__item">
+                  <input id="formPhone" type="text" name="phone" class="form__input" placeholder="Телефон"  required>
+              </div>
+                <div class="form__item">
+                    <input id="formEmail" type="text" name="email" class="form__input" placeholder="E-mail"  required>
+                </div>
+                <div class="nameGood"></div>
+                <button type="submit" class="form__button">Отправить</button>
+            </form>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
